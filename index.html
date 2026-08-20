@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Async Joke Fetcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">async / await · fetch · DOM</p>
+    <h1>Need a laugh?</h1>
+    <p class="subtitle">Pulls a random joke from a live API using async/await + error handling.</p>
+
+    <button id="jokeBtn">Get a joke</button>
+
+    <div id="result" class="result" aria-live="polite">
+      <p class="placeholder">Your joke will show up here.</p>
+    </div>
+
+    <p class="counter">Jokes fetched: <span id="count">0</span></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
